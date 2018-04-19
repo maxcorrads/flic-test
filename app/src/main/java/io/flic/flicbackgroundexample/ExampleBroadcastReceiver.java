@@ -28,8 +28,9 @@ public class ExampleBroadcastReceiver extends FlicBroadcastReceiver {
 					.setContentTitle("Button was pressed")
 					.setContentText("Pressed last time at " + new Date())
 					.build();
-			((NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE)).notify(1, notification);
+			((NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE)).notify(1, notification);
 		}
+		Toast.makeText(context, "Button isUp " + isUp + " isDown " + isDown + " timeDiff " + timeDiff + " wasQueued "+ wasQueued , Toast.LENGTH_SHORT).show();
 	}
 
 	@Override
