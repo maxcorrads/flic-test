@@ -7,6 +7,6 @@ import io.flic.lib.FlicManager;
  */
 public class Config {
 	static void setFlicCredentials() {
-		FlicManager.setAppCredentials("[flic-background-example]", "[app-secret]", "Flic Background Example");
+		FlicManager.setAppCredentials("eb94f859-78ba-46fb-b540-939ca8880b6a", "086ce381-4582-466a-979a-670c175272dc", "TestFlicMatteo");
 	}
 }
